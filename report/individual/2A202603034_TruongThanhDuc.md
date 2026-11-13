@@ -32,18 +32,18 @@ Số keyframe lấy từ kết quả `src/check_submission.py`.
 
 | Mã | Số keyframe | Keyframe ở frame | Số frame có mặt | Keyframe / 100 frame | Thời gian (phút) | Chỗ khó |
 |---|---|---|---|---|---|---|
-| P1 | 43 | 0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 20, 25, 28, 30, 52, 53, 55, 56, 57, 60, 61, 69, 70, 71, 72, 79, 82, 84, 87, 89, 92, 102, 112, 117, 122, 132, 142, 149 | 140 | 30.7 | | Đi sau cửa kính Vodafone ở đầu đoạn (0–20), bị P5 che một phần (`occluded`: 25–41, 52–54) và khuất hẳn (`outside`: 42–51), sau đó rẽ hướng tiến lại gần camera (92–149, chiều cao box tăng từ 250 lên 359 px). |
-| P2 | 18 | 61, 62, 69, 79, 89, 99, 101, 109, 112, 114, 116, 117, 118, 119, 124, 129, 139, 149 | 89 | 20.2 | | Mới xuất hiện bị che một phần sau khung cửa kính và quầy trong Vodafone (`occluded`: 61–68), sau đó đổi hướng đi ra cửa tiến lại gần camera (101–149, chiều cao box tăng từ 231 lên 344 px). |
+| P1 | 43 | 0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 20, 25, 28, 30, 52, 53, 55, 56, 57, 60, 61, 69, 70, 71, 72, 79, 82, 84, 87, 89, 92, 102, 112, 117, 122, 132, 142, 149 | 140 | 30.7 | | Đi sau cửa kính Vodafone ở đầu đoạn (0–20), bị P5 che một phần (`occluded`: 25–41, 52–54) và khuất hẳn (`outside`: 42–51), sau đó rẽ hướng tiến lại gần camera (92–149, chiều cao box tăng từ 275 lên 359 px; cả đoạn từ 250 lên 359 px). |
+| P2 | 18 | 61, 62, 69, 79, 89, 99, 101, 109, 112, 114, 116, 117, 118, 119, 124, 129, 139, 149 | 89 | 20.2 | | Mới xuất hiện bị che một phần sau khung cửa kính và quầy trong Vodafone (`occluded`: 61–68), sau đó đổi hướng đi ra cửa tiến lại gần camera (101–149, chiều cao box tăng từ 262 lên 345 px; cả đoạn từ 231 lên 345 px). |
 | P3 | 17 | 40, 49, 59, 69, 79, 89, 93, 99, 107, 109, 119, 123, 129, 131, 139, 145, 149 | 110 | 15.5 | | Đi vào từ mép phải khung hình (40–59) rồi đi nhanh tiến thẳng lại gần camera nên kích thước box tăng gần gấp đôi (chiều cao 484 lên 954 px), không bị che khuất. |
-| P4 | 16 | 2, 3, 7, 8, 9, 11, 13, 15, 18, 20, 21, 25, 28, 31, 41, 90 | 104 | 15.4 | | Bước vào cửa hàng Woolworths (2–41) rồi đứng gần như yên cạnh em bé; bị che một phần (`occluded`: 25–27, 90–105) rồi khuất hẳn (`outside` từ 106). |
-| P5 | 73 | 28, 37, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 97, 98, 99, 101, 102, 103, 104, 107, 108, 109, 110, 111, 112, 117, 128, 129, 130, 131, 132, 134, 135, 136 | 101 | 72.3 | | Di chuyển nhanh chéo ra xa camera (chiều cao giảm từ 670 xuống 350 px), dáng sải bước và vung tay làm bề rộng box đổi liên tục; cuối đoạn bị người đi đường che một phần (`occluded`: 109–119, 128–136) và khuất hẳn (`outside`: 120–127, 137+). |
+| P4 | 16 | 2, 3, 7, 8, 9, 11, 13, 15, 18, 20, 21, 25, 28, 31, 41, 90 | 104 | 15.4 | | Bước ra từ cửa hàng Woolworths (2–41) rồi đứng gần như yên cạnh em bé; có 19 frame bật `occluded` (`25–27`, `90–105`) rồi khuất hẳn (`outside` từ 106). |
+| P5 | 73 | 28, 37, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 97, 98, 99, 101, 102, 103, 104, 107, 108, 109, 110, 111, 112, 117, 128, 129, 130, 131, 132, 134, 135, 136 | 101 | 72.3 | | Di chuyển nhanh chéo ra xa camera (chiều cao giảm từ 670 xuống 350 px), dáng sải bước và vung tay làm bề rộng box đổi liên tục; cuối đoạn bị người đi đường che một phần (`occluded`: 109–119, 128–136) và khuất hẳn (`outside`: 120–127 và từ 137). |
 | **Tổng** | **167** | - | **544** | **30.7** | | |
 
 Keyframe / 100 frame của cả bài = tổng keyframe ÷ tổng số frame có mặt × 100 = 167 ÷ 544 × 100 = **30.7**
 
 Bạn đặt keyframe nhiều nhất ở người nào? Vì sao (người đó rẽ, dừng, lại gần camera hay bị che)?
 
-Đặt keyframe nhiều nhất ở **P5** (CVAT Track 4, MOT Track 3) với **73 keyframe / 101 frame có mặt = 72.3 keyframe / 100 frame** (mức này vượt ngưỡng cảnh báo `> 50` của `src/check_submission.py`). Lý do là P5 bước sải dài, vung tay và di chuyển nhanh theo hướng chéo ra xa camera từ trái sang phải rồi rẽ hướng vào cửa hàng Woolworths (chiều cao box giảm liên tục từ 670 px xuống 350 px, bề rộng thay đổi mạnh theo tư thế bước), nên quá trình gán đã chỉnh tay và cắm keyframe dày (gần như mỗi 1–2 frame ở đoạn 42–112) để giữ box bám sát người; đồng thời cần cắm keyframe liên tiếp quanh đoạn bị người đi bộ che một phần (`occluded`: 109–119, 128–136) trước và sau khi khuất hẳn (`outside`: 120–127). (Lưu ý: với đoạn đi chéo đều ở giữa 44–104 có thể giảm bớt keyframe, chỉ dồn vào chỗ đổi kích thước, rẽ hướng và quanh đoạn che để tránh vượt 50 KF/100 frame.)
+Đặt keyframe nhiều nhất ở **P5** (CVAT Track 4 / MOT Track 3) với **73 keyframe / 101 frame có mặt = 72.3 keyframe / 100 frame** (gây `[CẢNH BÁO]` `72 keyframe / 100 frame > 50` trong `src/check_submission.py`). Lý do là P5 bước sải dài, vung tay và di chuyển nhanh theo hướng chéo ra xa camera từ trái sang phải rồi rẽ hướng vào cửa hàng Woolworths (chiều cao box giảm liên tục từ 670 xuống 350 px, bề rộng thay đổi mạnh theo tư thế bước), nên quá trình gán đã chỉnh tay và cắm keyframe dày (gần như mỗi 1–2 frame ở đoạn 42–112) để giữ box bám sát người; đồng thời cần cắm keyframe liên tiếp quanh đoạn bị người đi bộ che một phần (`occluded`: 109–119, 128–136) trước và sau khi khuất hẳn (`outside`: 120–127). (Lưu ý: với đoạn đi chéo đều ở giữa 44–104 có thể giảm bớt keyframe, chỉ dồn vào chỗ đổi kích thước, rẽ hướng và quanh đoạn che để tránh vượt 50 KF/100 frame.)
 
 ## 3. Đoạn bị che (CP2)
 
@@ -79,19 +79,20 @@ Loại lỗi dùng đúng một trong 7 mã: `id_switch`, `fragmentation`, `lost
 
 | Frame | Mã người | Loại lỗi | Mô tả một câu | Phát hiện ở lượt | Đã sửa? |
 |---:|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| 59–60 | P2 | false_track | Đặt thừa 2 box ở frame 59–60 khi P2 chưa bước rõ khỏi khung cửa kính (mốc ở mục 1 là 61), nên đã cắt bỏ về frame 61. | | Đã sửa |
+| 39 | P3 | false_track | Đặt box ở frame 39 khi P3 mới ló ở mép phải, sớm hơn 1 frame so với mốc 40 đã ghi ở mục 1, nên đã cắt bỏ về frame 40. | | Đã sửa |
+| 1 | P4 | false_track | Gán box từ frame 1, sớm hơn 1 frame so với mốc 2 đã ghi ở mục 1, nên đã cắt bỏ về frame 2. | | Đã sửa |
+| 27 | P5 | false_track | Gán box từ frame 27 ở sát mép trái, sớm hơn 1 frame so với mốc 28 đã ghi ở mục 1, nên đã cắt bỏ về frame 28. | | Đã sửa |
 
 Tổng hợp số lỗi theo loại:
 
 | `id_switch` | `fragmentation` | `lost` | `merge` | `false_track` | `drift` | `flag` |
 |---:|---:|---:|---:|---:|---:|---:|
-| | | | | | | |
+| 0 | 0 | 0 | 0 | 4 | 0 | 0 |
 
 Lỗi nào chỉ lượt 2 (theo cảnh) mới thấy, lượt 1 (theo người) không thấy? Vì sao?
 
-...
+-  Trong 4 lỗi tôi liệt kê tất cả đều là false_track làm lượt 1 không thấy nhưng lần 2 mới thấy là do mắt dễ quen theo quán tính chuyển động của box nên khó nhận ra box được đặt sớm trước so với khung cảnh
 
 ## 5. File xuất và kết quả tự kiểm (CP4)
 
@@ -106,15 +107,15 @@ Lỗi nào chỉ lượt 2 (theo cảnh) mới thấy, lượt 1 (theo người)
 Dán phần tóm tắt in ra từ `src/check_submission.py`:
 
 ```text
-Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CVAT + 1.                                                                                   84, 87, 89, 92, 102, 112, 117, 122, 132, 142, 149]
+Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CVAT + 1.
 
 === File MOT 1.1: TruongThanhDuc_mot.zip ===
   Số track ID: 5   |   Tổng số box: 544
   [OK]        Đúng 5 track ID.
 
-  Track | Frame có mặt | Số frame | Đoạn vắng (outside)       
+  Track | Frame có mặt | Số frame | Đoạn vắng (outside)
       1 |   0–149      |      140 | 42–51
-      2 |   2–105      |      104 | -                                                                                                                            73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 97, 98, 99, 101, 1
+      2 |   2–105      |      104 | -
       3 |  28–136      |      101 | 120–127
       4 |  40–149      |      110 | -
       5 |  61–149      |       89 | -
@@ -124,8 +125,7 @@ Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CV
 
   Track | Nhãn   | Frame thấy | Keyframe | KF/100 frame | Frame occluded | Lần bật outside
       0 | person |        140 |       43 |         30.7 |             20 |               1
-              Track 0: keyframe ở frame [0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 20, 25, 28, 30, 52, 53, 55, 56, 57, 60, 61, 69, 70, 71, 72, 79, 82, 
-84, 87, 89, 92, 102, 112, 117, 122, 132, 142, 149]
+              Track 0: keyframe ở frame [0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 20, 25, 28, 30, 52, 53, 55, 56, 57, 60, 61, 69, 70, 71, 72, 79, 82, 84, 87, 89, 92, 102, 112, 117, 122, 132, 142, 149]
       1 | person |         89 |       18 |         20.2 |              8 |               0
               Track 1: keyframe ở frame [61, 62, 69, 79, 89, 99, 101, 109, 112, 114, 116, 117, 118, 119, 124, 129, 139, 149]
       2 | person |        110 |       17 |         15.5 |              0 |               0
@@ -133,9 +133,7 @@ Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CV
       3 | person |        104 |       16 |         15.4 |             19 |               1
               Track 3: keyframe ở frame [2, 3, 7, 8, 9, 11, 13, 15, 18, 20, 21, 25, 28, 31, 41, 90]
       4 | person |        101 |       73 |         72.3 |             20 |               2
-              Track 4: keyframe ở frame [28, 37, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 
-73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 97, 98, 99, 101, 102, 103, 104, 107, 108, 109, 110, 111, 112, 117, 128, 129, 
-130, 131, 132, 134, 135, 136]
+              Track 4: keyframe ở frame [28, 37, 42, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 97, 98, 99, 101, 102, 103, 104, 107, 108, 109, 110, 111, 112, 117, 128, 129, 130, 131, 132, 134, 135, 136]
   [CẢNH BÁO]  Track 4: 72 keyframe / 100 frame > 50. Quá dày, dồn keyframe vào chỗ rẽ / dừng / bị che.
 
   Tổng: 167 keyframe / 544 frame có mặt = 30.7 keyframe / 100 frame
@@ -150,15 +148,16 @@ Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CV
 
 1. Nếu được gán lại, bạn sẽ đặt keyframe khác ở đâu? Vì sao?
 
-   ...
+-  Ở P5 nếu nếu được gán lại tôi sẽ đặt keyframe bắt đầu từ frame 7 do với hình dạng như thế đã đủ điều kiện đoán ra là con người rồi
 
 2. Có chỗ nào bạn không chắc "cùng ID hay ID mới"? Bạn đã quyết định và ghi chú thế nào?
 
-   ...
+-  Chỗ tôi không chắc "cùng ID hay ID mới" là P1, ở keyframe 42–51 bị P5 che khuất hoàn toàn 10 frame rồi hiện lại ở 52
+-  Tôi đã quyết định giữ cùng ID, bật cờ occluded (25–41, 52–54) và outside (42–51), đồng thời ghi chú đầy đủ 4 mốc và lý do ở mục 3
 
 3. Một lỗi ID trong job của bạn (nếu không còn sót, chọn lỗi đã sửa) có thể làm xe tự lái dự đoán sai chuyển động của người đó như thế nào? Lỗi đó ảnh hưởng MOTA hay IDF1 nhiều hơn?
 
-   ...
+   Những lỗi ID của tôi đã liệt kê đều liên quan tới đặt box chuyển động sớm điều này khiến cho việc mô hình sẽ có thể dự đoán sai tình huống hay chuyển động của người đó như thế nào khiến cho xe tự lái mất an toàn . Lỗi đó ảnh hưởng tới MOTA nhiều hơn IDF1
 
 ## Bonus (nếu làm)
 
