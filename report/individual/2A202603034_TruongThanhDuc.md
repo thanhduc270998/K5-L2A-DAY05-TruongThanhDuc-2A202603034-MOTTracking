@@ -183,4 +183,4 @@ Số frame in theo CVAT (bắt đầu từ 0). Trong gt.txt, frame_id = frame CV
 
 ## 7. Tài liệu tham khảo và công cụ AI đã dùng
 
-...
+Công cụ AI: Gemini dùng để hỏi các khái niệm liên quan và cách sử dụng cvat tới bài thực hành (cụ thể là dùng Split a track để cắt các frame thừa và các nút khác phục vụ cho việc làm bài tập)
