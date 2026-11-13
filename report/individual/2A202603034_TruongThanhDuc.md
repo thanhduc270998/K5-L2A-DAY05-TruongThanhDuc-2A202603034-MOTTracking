@@ -6,13 +6,13 @@
 
 ## 0. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Mã đề (A/B/C):
-- Email:
-- Link repository:
-- Giờ bắt đầu:
-- Giờ kết thúc:
+- Họ tên: Trương Thành Đức
+- MSSV: 2A202603034
+- Mã đề (A/B/C): C
+- Email:  26ai.ductt2@vinuni.edu.vn
+- Link repository: https://github.com/thanhduc270998/K5-L2A-DAY05-TruongThanhDuc-2A202603034-MOTTracking.git
+- Giờ bắt đầu: 16h20
+- Giờ kết thúc: 18h36
 
 ## 1. Xem trước đoạn video (CP0)
 
